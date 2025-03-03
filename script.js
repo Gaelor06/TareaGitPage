@@ -1,7 +1,7 @@
 const audioPlayer = document.getElementById("audioPlayer");
 const fileInput = document.getElementById("fileInput");
 const playlist = document.getElementById("playlist");
-const playPauseButton = document.getElementById("playPauseButton");
+const PPButton = document.getElementById("playPauseButton");
 
 let tracks = [
   { name: "Audio 1", src: "audio4.mp3" },
